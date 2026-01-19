@@ -49,7 +49,7 @@ const CTA = () => {
                         <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
                     </a>
                     
-                    <a href="mailto:sirigogoebenezer@gmail.com" className="px-8 py-4 bg-white/5 text-white font-medium rounded-lg hover:bg-white/10 border border-white/5 transition-all flex items-center gap-2">
+                    <a href="mailto:ebenezer@aiproductengineer.com" className="px-8 py-4 bg-white/5 text-white font-medium rounded-lg hover:bg-white/10 border border-white/5 transition-all flex items-center gap-2">
                         <Coffee className="w-5 h-5 text-slate-400" />
                         <span>Let's Chat</span>
                     </a>
@@ -66,4 +66,4 @@ const CTA = () => {
   )
 }
 
-export default CTA 
+export default CTA

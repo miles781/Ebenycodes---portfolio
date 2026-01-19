@@ -1,28 +1,26 @@
-import { assets } from '@/assets/assets'
-import Image from 'next/image'
+'use client'
 import React from 'react'
+import TextLogo from './TextLogo'
 
-const Footer = ({isDarkMode}) => {
+const Footer = () => {
   return (
-    <div className='mt-20' >
-      <div className='text-center'> 
-        <Image src={isDarkMode ? assets.logo_dark : assets.logo} alt='' className='w-36 mx-auto mb-2'/>
+    <footer className='py-10 border-t border-white/5 bg-slate-950 mt-12'>
+      <div className='container mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-6'>
+        
+        <div className="flex items-center gap-4">
+            <TextLogo />
+            <span className="text-slate-700 text-xl font-light hidden md:inline">|</span>
+            <span className="text-slate-500 text-sm font-mono flex items-center gap-2">
+                <span className="w-2 h-2 rounded-full bg-green-500"></span>
+                SYSTEM_ONLINE v2.5
+            </span>
+        </div>
 
-        <div className='w-max flex items-center gap-2 mx-auto'>  
-        <Image src={isDarkMode ? assets.mail_icon_dark : assets.mail_icon} alt='' className='w-6 '/>
-         sirigogoebenezer@gmail.com  
-        </div> 
+        <div className="text-slate-500 text-sm font-mono">
+            &copy; {new Date().getFullYear()} Ebenezer Igogo. All systems operational.
+        </div>
       </div>
-       <div className='text-center sm:flex items-center justify-between border-t border-gary-400
-       mx-[10%] mt-12 py-6 ' >
-        <p> © 2025 igogo Ebenezer. All rights reserved.</p>
-        <ul className='flex items-center gap-10 justify-center mt-4 sm:mt-0'> 
-            <li> <a target='_blank'  href='https://github.com/miles781'>Github </a>  </li>
-            <li> <a target='_blank'  href='https://www.linkedin.com/in/igogo-ebenezer-47a483358/'>Linkedln </a>  </li>
-            <li> <a target='_blank'  href='https://web.facebook.com/igogo.ebenezer'>  Facebook</a> </li>
-        </ul>
-       </div> 
-    </div>
+    </footer>
   )
 }
 

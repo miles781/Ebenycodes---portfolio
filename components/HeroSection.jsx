@@ -42,7 +42,8 @@ const HeroSection = () => {
                         src={assets.profile_img || '/assets/user-image.png'} 
                         alt="Ebenezer"
                         fill
-                        className="object-cover"
+                        className="object-cover object-top" // <--- FIXED: Align image to top to show head
+                        priority
                      />
                      {/* Overlay Gradient */}
                      <div className="absolute inset-0 bg-gradient-to-t from-page/80 to-transparent" />

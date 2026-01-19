@@ -6,3 +6,24 @@
 *{
   font-family:Outfit;
 }
+
+
+@layer base {
+  body {
+    @apply bg-page text-slate-300 antialiased;
+  }
+}
+
+/* Custom Scrollbar for the Dashboard look */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  @apply bg-page;
+}
+::-webkit-scrollbar-thumb {
+  @apply bg-slate-700 rounded-full;
+}
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-primary;
+}
