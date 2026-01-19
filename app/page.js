@@ -11,7 +11,6 @@ import Footer from "@/components/Footer";
 import HeroSection from "@/components/HeroSection";
 import About from "@/components/About";
 import Capabilities from "@/components/Capabilities"; // Your "Skills" section
-import Work from "@/components/Work";
 
 // --- AI & Specialization Components ---
 import AgenticUI from "@/components/AgenticUI";
@@ -79,8 +78,7 @@ export default function Home() {
             <div className="space-y-0"> {/* Remove vertical gaps, let components handle padding */}
                 <About id="about" />
                 <Capabilities id="capabilities" />
-                <Work id="work" />
-                
+
                 {/* Deep Dive Section */}
                 <div className="relative">
                    <div className="absolute inset-0 bg-gradient-to-b from-transparent via-primary/5 to-transparent pointer-events-none -z-10" />
@@ -103,4 +101,4 @@ export default function Home() {
       </main>
     </div>
   );
-} 
+}
