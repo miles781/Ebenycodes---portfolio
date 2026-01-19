@@ -107,7 +107,7 @@ const HeroSection = () => {
                 <a href="#contact" className="px-8 py-4 bg-primary text-page font-bold rounded-lg hover:bg-primaryHover transition-colors flex items-center gap-2">
                     Let's Talk <Mail className="w-4 h-4" />
                 </a>
-                <a href="#work" className="px-8 py-4 bg-card border border-white/10 text-white rounded-lg hover:bg-white/5 transition-colors flex items-center gap-2">
+                <a href="#services" className="px-8 py-4 bg-card border border-white/10 text-white rounded-lg hover:bg-white/5 transition-colors flex items-center gap-2">
                     View Work <ArrowRight className="w-4 h-4" />
                 </a>
             </div>
