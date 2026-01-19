@@ -11,8 +11,8 @@ const Sidebar = () => {
   const navItems = [
     { id: 'hero', icon: Home, label: 'Home' },
     { id: 'about', icon: User, label: 'About' },
+    { id: 'capabilities', icon: Briefcase, label: 'Skills' },
     { id: 'services', icon: Code2, label: 'Services' },
-    { id: 'work', icon: Briefcase, label: 'Work' },
     { id: 'contact', icon: Mail, label: 'Contact' },
   ]
 
@@ -22,6 +22,35 @@ const Sidebar = () => {
     { icon: Twitter, href: 'https://x.com/IgogoE39012' },
     { icon: Linkedin, href: 'https://www.linkedin.com/in/igogo-ebenezer-47a483358/' },
   ]
+
+  // Scroll-based active section detection
+  useEffect(() => {
+    const observerOptions = {
+      root: null,
+      rootMargin: '-50% 0px -50% 0px',
+      threshold: 0
+    }
+
+    const observerCallback = (entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          setActiveSection(entry.target.id)
+        }
+      })
+    }
+
+    const observer = new IntersectionObserver(observerCallback, observerOptions)
+
+    // Observe all sections
+    navItems.forEach((item) => {
+      const element = document.getElementById(item.id)
+      if (element) {
+        observer.observe(element)
+      }
+    })
+
+    return () => observer.disconnect()
+  }, [])
 
   return (
     <>
