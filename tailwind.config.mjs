@@ -11,6 +11,10 @@ export default {
         lightHover: '#fcf4ff',
         darkhover: '#2a004a',
         darkTheme: '#11001f',
+        // Custom portfolio theme colors
+        page: '#0a0a0a', // Dark background
+        card: '#1a1a1a', // Card backgrounds
+        primary: '#2dd4bf', // Teal accent color
       },
       fontFamily:{
         Outfit:["Outfit", "sans-serif"],
