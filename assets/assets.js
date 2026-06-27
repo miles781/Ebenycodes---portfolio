@@ -77,26 +77,56 @@ export const assets = {
 };
 
 export const workData = [
-    {
-        title: 'Frontend project',
-        description: 'Web Design',
-        bgImage: '/work-1.png',
-    },
-    {
-        title: 'Geo based app',
-        description: 'Mobile App',
-        bgImage: '/work-2.png',
-    },
-    {
-        title: 'Photography site',
-        description: 'Web Design',
-        bgImage: '/work-3.png',
-    },
-    {
-        title: 'UI/UX designing',
-        description: 'UI/UX Design',
-        bgImage: '/work-4.png',
-    },
+  {
+    title: 'SmartClear X',
+    description: 'AI-powered student clearance ecosystem for Nigerian universities. Multi-role mobile platform replacing manual paper-based clearance processes across departments.',
+    bgImage: '/work-1.png',
+    tech: ['React Native', 'Expo', 'TypeScript', 'AI/LLM'],
+    category: 'Mobile App',
+    client: 'University of Calabar (Commissioned)',
+    status: 'MVP Complete',
+    link: 'https://github.com/miles781'
+  },
+  {
+    title: 'Smart Exam Ecosystem',
+    description: '135-screen university examination management platform supporting 10 distinct user roles — from students and invigilators to registrars and vice chancellors.',
+    bgImage: '/work-2.png',
+    tech: ['React Native', 'Expo', 'TypeScript', 'Role-Based Auth'],
+    category: 'Mobile App',
+    client: 'University of Calabar',
+    status: 'MVP Complete',
+    link: 'https://github.com/miles781'
+  },
+  {
+    title: 'Chop-Spot',
+    description: 'Nigerian food delivery app with real backend integration. Built in-house for Springcore Africa — connects to the Delichops API with full order flow and restaurant discovery.',
+    bgImage: '/work-3.png',
+    tech: ['React Native', 'Expo Router', 'REST API', 'Paystack'],
+    category: 'Mobile App',
+    client: 'Springcore Africa',
+    status: 'In Production',
+    link: 'https://github.com/miles781'
+  },
+  {
+    title: 'RAMCE',
+    description: 'Regime-Aware Momentum Composite Engine — a quantitative market intelligence platform tracking 25 financial instruments using GARCH volatility modeling, Hurst exponent analysis, and Shannon entropy.',
+    bgImage: '/work-4.png',
+    tech: ['Next.js', 'FastAPI', 'Supabase', 'Python', 'GARCH'],
+    category: 'FinTech / AI',
+    client: 'Angelo Trading Academy',
+    status: 'In Production',
+    link: 'https://github.com/miles781'
+  },
+  {
+    title: 'Angelo Technology',
+    description: 'Multi-vertical digital education platform for the African market. Full-stack SaaS with learning tracks, bootcamps, trading academy, tools directory, and Paystack payment integration.',
+    bgImage: '/work-1.png',
+    tech: ['Next.js 14', 'Supabase', 'Paystack', 'TypeScript'],
+    category: 'EdTech SaaS',
+    client: 'Self / Angelo Technology',
+    status: 'Live',
+    link: 'https://github.com/miles781'
+  }
 ]
 
 export const serviceData = [
@@ -107,10 +137,10 @@ export const serviceData = [
 ]
 
 export const infoList = [
-    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'HTML, CSS, JavaScript React Js, Next Js' },
-    { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'B.Tech in Computer Science' },
-    { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: 'Built more than 5 projects' }
-];
+  { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'JavaScript, TypeScript, Python, SQL' },
+  { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'B.Sc Computer Science — University of Calabar (300L)' },
+  { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: '20+ production-grade systems built' }
+]
 
 export const toolsData = [
     assets.vscode, assets.firebase, assets.mongodb, assets.figma, assets.git
