@@ -21,7 +21,7 @@ const HeroSection = () => {
           transition={{ duration: 0.5 }}
           className="relative group perspective-1000"
         >
-            <div className="relative w-full max-w-md mx-auto bg-card/50 backdrop-blur-2xl border border-white/10 rounded-3xl p-6 shadow-2xl transition-transform duration-500 group-hover:scale-[1.02] group-hover:shadow-primary/20 group-hover:shadow-2xl">
+            <div className="relative w-full max-w-md mx-auto bg-card/50 backdrop-blur-2xl border border-white/10 rounded-3xl p-6 shadow-2xl transition-transform duration-500 group-hover:scale-[1.02]">
                 <div className="flex justify-between items-start mb-6">
                     <div className="w-12 h-12 rounded-full bg-white/5 flex items-center justify-center border border-white/10">
                         <Terminal className="w-6 h-6 text-primary" />
@@ -62,7 +62,7 @@ const HeroSection = () => {
                     </div>
                 </div>
 
-                <a href="/Ebenezer-resume.pdf" download className="mt-6 w-full flex items-center justify-center gap-2 py-3 rounded-xl bg-white text-page font-bold hover:bg-primary hover:text-white transition-all duration-300">
+                <a href="/public/Ebenezer-resume.pdf" download="Ebenezer-resume.pdf" className="mt-6 w-full flex items-center justify-center gap-2 py-3 rounded-xl bg-white text-page font-bold hover:bg-primary hover:text-white transition-all duration-300">
                     <Download className="w-4 h-4" />
                     <span>Download CV</span>
                 </a>
@@ -89,7 +89,7 @@ const HeroSection = () => {
             </h1>
 
             <p className="text-lg text-slate-400 max-w-lg leading-relaxed">
-                A <strong className="text-white">Full-Stack & AI Product Engineer</strong> from Nigeria. I build production mobile apps, intelligent web systems, and AI-powered tools — for real clients.
+                A <strong className="text-white">Full-Stack & AI Product Engineer</strong> from Nigeria. I build production mobile apps, intelligent web systems, and AI-powered tools — for real-world problems.
             </p>
 
             <div className="flex flex-wrap gap-4 pt-4">
