@@ -15,7 +15,7 @@ import logo from './logo.png';
 import logo_dark from './logo_dark.png';
 import mail_icon from './mail_icon.png';
 import mail_icon_dark from './mail_icon_dark.png';
-import profile_img from './profile-img.png';
+import profile_img from './10000023.png';
 import download_icon from './download-icon.png';
 import hand_icon from './hand-icon.png';
 import header_bg_color from './header-bg-color.png';
@@ -109,7 +109,7 @@ export const workData = [
   },
   {
     title: 'RAMCE',
-    description: 'Regime-Aware Momentum Composite Engine — a quantitative market intelligence platform tracking 25 financial instruments using GARCH volatility modeling, Hurst exponent analysis, and Shannon entropy.',
+    description: 'Regime-Aware Momentum Composite Engine — a quantitative market intelligence platform tracking 25 financial instruments using GARCH volatility modeling, Hurst exponent analysis[...]',
     bgImage: '/work-4.png',
     tech: ['Next.js', 'FastAPI', 'Supabase', 'Python', 'GARCH'],
     category: 'FinTech / AI',
@@ -119,7 +119,7 @@ export const workData = [
   },
   {
     title: 'Angelo Technology',
-    description: 'Multi-vertical digital education platform for the African market. Full-stack SaaS with learning tracks, bootcamps, trading academy, tools directory, and Paystack payment integration.',
+    description: 'Multi-vertical digital education platform for the African market. Full-stack SaaS with learning tracks, bootcamps, trading academy, tools directory, and Paystack payment integra[...]',
     bgImage: '/work-1.png',
     tech: ['Next.js 14', 'Supabase', 'Paystack', 'TypeScript'],
     category: 'EdTech SaaS',
