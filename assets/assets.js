@@ -80,7 +80,7 @@ export const workData = [
   {
     title: 'SmartClear X',
     description: 'Multi-role mobile app that digitises university clearance for students, department officers, bursary, library and admin, replacing a slow paper process. Includes an AI layer for document validation and status prediction.',
-    image: null, // optional full-width screenshot, e.g. '/projects/smartclear-screenshot.png'
+    image: '/projects/smartclear-screenshot.png',
     logo: null,  // optional logo, e.g. '/projects/smartclear-logo.png'
     icon: 'ShieldCheck', // shown when there is no image or logo
     tech: ['React Native', 'Expo', 'TypeScript', 'AI/LLM'],
@@ -91,7 +91,7 @@ export const workData = [
   {
     title: 'Smart Exam Ecosystem',
     description: 'Examination-management platform covering the full exam lifecycle for 10 user roles, from students and invigilators to registrars and vice chancellors, in a single mobile codebase of 135 screens.',
-    image: null,
+    image: '/projects/smart-exam-screenshot.png',
     logo: null,
     icon: 'GraduationCap',
     tech: ['React Native', 'Expo', 'TypeScript'],
@@ -102,7 +102,7 @@ export const workData = [
   {
     title: 'Chop-Spot',
     description: 'Food-ordering mobile app with sign-up, OTP and password reset, restaurant discovery and search, cart, coupons, checkout, saved addresses and order tracking. Built during my SpringCore Africa internship.',
-    image: null,
+    image: '/projects/chop-spot-screenshot.png',
     logo: null,
     icon: 'ShoppingBag',
     tech: ['React Native', 'Expo Router', 'TypeScript', 'React Query', 'Zustand'],
@@ -135,7 +135,7 @@ export const workData = [
   {
     title: 'RAMCE',
     description: 'Regime-Aware Momentum Composite Engine: a market-intelligence platform tracking 25 financial instruments, using GARCH volatility modelling, Hurst exponent and Shannon entropy to detect market regimes.',
-    image: null,
+    image: '/projects/ramce-screenshot.png',
     logo: null,
     icon: 'BarChart3',
     tech: ['Next.js', 'FastAPI', 'Supabase', 'Python'],
