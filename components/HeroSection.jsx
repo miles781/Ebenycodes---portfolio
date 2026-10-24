@@ -34,7 +34,7 @@ const HeroSection = () => {
             <div className="relative w-full aspect-[4/5] rounded-2xl overflow-hidden mb-6 border-2 border-white/5 group-hover:border-primary/50 transition-colors">
               <Image 
                 src={assets.profile_img || '/assets/user-image.png'} 
-                alt="Ebenezer"
+                alt="Ebenezer Igogo profile photo"
                 fill
                 sizes="(max-width: 1024px) 100vw, 50vw"
                 priority
@@ -45,26 +45,26 @@ const HeroSection = () => {
               
               <div className="absolute bottom-4 left-4">
                 <h2 className="text-white font-bold text-xl">Ebenezer Igogo</h2>
-                <p className="text-primary text-sm font-mono">AI Product Engineer</p>
+                <p className="text-primary text-sm font-mono">Full-Stack & Mobile Developer</p>
               </div>
             </div>
 
             <div className="grid grid-cols-3 gap-4 border-t border-white/5 pt-4">
               <div className="text-center">
-                <div className="text-white font-bold text-lg">5+</div>
-                <div className="text-slate-500 text-xs uppercase tracking-wider">Years</div>
+                <div className="text-white font-bold text-lg">2020</div>
+                <div className="text-slate-500 text-xs uppercase tracking-wider">Coding since</div>
               </div>
               <div className="text-center border-l border-white/5">
                 <div className="text-white font-bold text-lg">20+</div>
                 <div className="text-slate-500 text-xs uppercase tracking-wider">Projects</div>
               </div>
               <div className="text-center border-l border-white/5">
-                <div className="text-white font-bold text-lg">100%</div>
-                <div className="text-slate-500 text-xs uppercase tracking-wider">Commitment</div>
+                <div className="text-white font-bold text-lg">400L</div>
+                <div className="text-slate-500 text-xs uppercase tracking-wider">CS Student</div>
               </div>
             </div>
 
-            <a href="/public/Ebenezer-resume.pdf" download="Ebenezer-resume.pdf" className="mt-6 w-full flex items-center justify-center gap-2 py-3 rounded-xl bg-white text-page font-bold hover:bg-slate-200 transition-colors">
+            <a href="/Ebenezer-resume.pdf" download="Ebenezer-resume.pdf" className="mt-6 w-full flex items-center justify-center gap-2 py-3 rounded-xl bg-white text-page font-bold hover:bg-slate-200 transition-colors">
               <Download className="w-4 h-4" />
               <span>Download CV</span>
             </a>
@@ -91,7 +91,7 @@ const HeroSection = () => {
           </h1>
 
           <p className="text-lg text-slate-400 max-w-lg leading-relaxed">
-            A <strong className="text-white">Full-Stack & AI Product Engineer</strong> from Nigeria. I build production mobile apps, intelligent web systems, and AI-powered tools — for real-world impact.
+            A <strong className="text-white">Full-Stack & Mobile Developer</strong> from Calabar, Nigeria. I build React Native apps and Next.js web applications with real API integrations, and I am open to junior and internship roles.
           </p>
 
           <div className="flex flex-wrap gap-4 pt-4">

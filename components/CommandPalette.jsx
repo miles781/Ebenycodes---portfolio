@@ -21,9 +21,9 @@ const CommandPalette = () => {
     { id: 'services', name: 'See Services', action: () => window.location.hash = '#services', icon: Code },
     { id: 'work', name: 'Browse Work', action: () => window.location.hash = '#work', icon: Briefcase },
     { id: 'contact', name: 'Contact Me', action: () => window.location.hash = '#contact', icon: Mail },
-    { id: 'resume', name: 'Download Resume', action: () => window.open('/resume.pdf', '_blank'), icon: FileText },
+    { id: 'resume', name: 'Download Resume', action: () => window.open('/Ebenezer-resume.pdf', '_blank'), icon: FileText },
     { id: 'github', name: 'GitHub Profile', action: () => window.open('https://github.com/miles781', '_blank'), icon: Github },
-    { id: 'linkedin', name: 'LinkedIn Profile', action: () => window.open('https://linkedin.com/in/igogo-ebenezer', '_blank'), icon: Linkedin },
+    { id: 'linkedin', name: 'LinkedIn Profile', action: () => window.open('https://www.linkedin.com/in/igogo-ebenezer-47a483358/', '_blank'), icon: Linkedin },
   ]
 
   // Filter commands based on search
