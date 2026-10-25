@@ -34,7 +34,7 @@ const About = () => {
                     I've built <span className="text-white">university-scale mobile apps</span> (a clearance system, and an exam platform with 135 screens across 10 roles), a <span className="text-white">quantitative market-analysis platform</span>, an <span className="text-white">education SaaS with Paystack payments</span>, and mobile apps during my internship at SpringCore Africa.
                 </p>
                 <p>
-                    I work with <span className="text-primary">React Native, Next.js, FastAPI and Supabase</span>, and add LLM features where they genuinely help. I'm looking for a junior full-stack or mobile role where I can keep learning and build real features.
+                    I work with <span className="text-primary">React Native, Next.js, FastAPI, Supabase and Convex</span>, and add LLM features where they genuinely help. I'm looking for a junior full-stack or mobile role where I can keep learning and build real features.
                 </p>
                 
                 <div className="flex flex-wrap gap-3 pt-2">
@@ -80,7 +80,7 @@ const About = () => {
                             <span className="text-slate-400">mobile:</span> [<span className="text-orange-400">'React Native'</span>, <span className="text-orange-400">'Expo'</span>, <span className="text-orange-400">'TypeScript'</span>],
                         </div>
                         <div className="pl-4">
-                            <span className="text-slate-400">web:</span> [<span className="text-cyan-400">'Next.js'</span>, <span className="text-cyan-400">'FastAPI'</span>, <span className="text-cyan-400">'Supabase'</span>],
+                            <span className="text-slate-400">web:</span> [<span className="text-cyan-400">'Next.js'</span>, <span className="text-cyan-400">'FastAPI'</span>, <span className="text-cyan-400">'Supabase'</span>, <span className="text-cyan-400">'Convex'</span>],
                         </div>
                         <div className="pl-4">
                             <span className="text-slate-400">experience:</span> [<span className="text-pink-400">'Unical projects'</span>, <span className="text-pink-400">'SpringCore Africa (intern)'</span>],
