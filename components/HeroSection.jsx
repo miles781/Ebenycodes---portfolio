@@ -64,7 +64,7 @@ const HeroSection = () => {
               </div>
             </div>
 
-            <a href="/public/Ebenezer-resume.pdf" download="Ebenezer-resume.pdf" className="mt-6 w-full flex items-center justify-center gap-2 py-3 rounded-xl bg-white text-page font-bold hover:bg-slate-200 transition-colors">
+            <a href="/Ebenezer-resume.pdf" download="Ebenezer-resume.pdf" className="mt-6 w-full flex items-center justify-center gap-2 py-3 rounded-xl bg-white text-page font-bold hover:bg-slate-200 transition-colors">
               <Download className="w-4 h-4" />
               <span>Download CV</span>
             </a>
