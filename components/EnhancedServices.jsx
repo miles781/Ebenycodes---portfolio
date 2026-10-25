@@ -127,7 +127,11 @@ const EnhancedServices = () => {
           viewport={{ once: true }}
         >
           {serviceData.map((service, index) => (
-            <motion.div key={index} variants={itemVariants}>
+            <motion.div 
+              key={index} 
+              variants={itemVariants}
+              className={service.title === 'AI-assisted features' ? 'md:col-span-2 lg:col-span-2' : ''}
+            >
               <ServiceCard {...service} />
             </motion.div>
           ))}
