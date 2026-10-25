@@ -129,7 +129,7 @@ export const workData = [
     icon: 'ShoppingBag',
     tech: ['React Native'],
     category: 'Mobile App',
-    client: 'Personal project',
+    client: 'SpringCore Africa (internship)',
     status: 'In development'
   },
   {
