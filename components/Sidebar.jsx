@@ -11,7 +11,7 @@ const Sidebar = () => {
   const navItems = [
     { id: 'hero', icon: Home, label: 'Home' },
     { id: 'about', icon: User, label: 'About' },
-    { id: 'capabilities', icon: Briefcase, label: 'Skills' },
+    { id: 'work', icon: Briefcase, label: 'Work' },
     { id: 'services', icon: Code2, label: 'Services' },
     { id: 'contact', icon: Mail, label: 'Contact' },
   ]

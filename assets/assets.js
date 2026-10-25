@@ -79,69 +79,116 @@ export const assets = {
 export const workData = [
   {
     title: 'SmartClear X',
-    description: 'AI-powered student clearance ecosystem for Nigerian universities. Multi-role mobile platform replacing manual paper-based clearance processes across departments.',
-    bgImage: '/work-1.png',
+    description: 'Multi-role mobile app that digitises university clearance for students, department officers, bursary, library and admin, replacing a slow paper process. Includes an AI layer for document validation and status prediction.',
+    image: null, // optional full-width screenshot, e.g. '/projects/smartclear-screenshot.png'
+    logo: null,  // optional logo, e.g. '/projects/smartclear-logo.png'
+    icon: 'ShieldCheck', // shown when there is no image or logo
     tech: ['React Native', 'Expo', 'TypeScript', 'AI/LLM'],
     category: 'Mobile App',
-    client: 'University of Calabar (Commissioned)',
-    status: 'MVP Complete',
-    link: 'https://github.com/miles781'
+    client: 'University of Calabar (commissioned by a staff member)',
+    status: 'MVP'
   },
   {
     title: 'Smart Exam Ecosystem',
-    description: '135-screen university examination management platform supporting 10 distinct user roles — from students and invigilators to registrars and vice chancellors.',
-    bgImage: '/work-2.png',
-    tech: ['React Native', 'Expo', 'TypeScript', 'Role-Based Auth'],
+    description: 'Examination-management platform covering the full exam lifecycle for 10 user roles, from students and invigilators to registrars and vice chancellors, in a single mobile codebase of 135 screens.',
+    image: null,
+    logo: null,
+    icon: 'GraduationCap',
+    tech: ['React Native', 'Expo', 'TypeScript'],
     category: 'Mobile App',
     client: 'University of Calabar',
-    status: 'MVP Complete',
-    link: 'https://github.com/miles781'
+    status: 'MVP'
   },
   {
     title: 'Chop-Spot',
-    description: 'Nigerian food delivery app with real backend integration. Built in-house for Springcore Africa — connects to the Delichops API with full order flow and restaurant discovery.',
-    bgImage: '/work-3.png',
-    tech: ['React Native', 'Expo Router', 'REST API', 'Paystack'],
+    description: 'Food-ordering mobile app with sign-up, OTP and password reset, restaurant discovery and search, cart, coupons, checkout, saved addresses and order tracking. Built during my SpringCore Africa internship.',
+    image: null,
+    logo: null,
+    icon: 'ShoppingBag',
+    tech: ['React Native', 'Expo Router', 'TypeScript', 'React Query', 'Zustand'],
     category: 'Mobile App',
-    client: 'Springcore Africa',
-    status: 'In Production',
-    link: 'https://github.com/miles781'
+    client: 'SpringCore Africa (internship)',
+    status: 'Ongoing'
+  },
+  {
+    title: 'Quick Consult',
+    description: 'Patient-facing mobile app for online medical consultation and appointment booking, connecting users with healthcare providers. The web version is released; the mobile app is in development.',
+    image: null,
+    logo: '/projects/quick-consult.png',
+    icon: 'MessageSquare',
+    tech: ['React Native', 'Expo', 'TypeScript'],
+    category: 'Mobile App',
+    client: 'SpringCore Africa (internship)',
+    status: 'In development'
+  },
+  {
+    title: 'Tasty Cart',
+    description: 'Food-ordering mobile app built with React Native. The web version is released; the mobile app is in development.',
+    image: null,
+    logo: '/projects/tasty-cart.png',
+    icon: 'ShoppingBag',
+    tech: ['React Native'],
+    category: 'Mobile App',
+    client: 'Personal project',
+    status: 'In development'
   },
   {
     title: 'RAMCE',
-    description: 'Regime-Aware Momentum Composite Engine — a quantitative market intelligence platform tracking 25 financial instruments using GARCH volatility modeling, Hurst exponent analysis[...]',
-    bgImage: '/work-4.png',
-    tech: ['Next.js', 'FastAPI', 'Supabase', 'Python', 'GARCH'],
+    description: 'Regime-Aware Momentum Composite Engine: a market-intelligence platform tracking 25 financial instruments, using GARCH volatility modelling, Hurst exponent and Shannon entropy to detect market regimes.',
+    image: null,
+    logo: null,
+    icon: 'BarChart3',
+    tech: ['Next.js', 'FastAPI', 'Supabase', 'Python'],
     category: 'FinTech / AI',
     client: 'Angelo Trading Academy',
-    status: 'In Production',
-    link: 'https://github.com/miles781'
+    status: 'In Production'
   },
   {
     title: 'Angelo Technology',
-    description: 'Multi-vertical digital education platform for the African market. Full-stack SaaS with learning tracks, bootcamps, trading academy, tools directory, and Paystack payment integra[...]',
-    bgImage: '/work-1.png',
+    description: 'Multi-vertical digital education platform for the African market: learning tracks, bootcamps, a trading academy and a tools directory, with Paystack payments.',
+    image: null,
+    logo: '/projects/angelo-technology.png',
+    icon: 'Cpu',
     tech: ['Next.js 14', 'Supabase', 'Paystack', 'TypeScript'],
     category: 'EdTech SaaS',
-    client: 'Self / Angelo Technology',
-    status: 'Live',
-    link: 'https://github.com/miles781'
+    client: 'Angelo Technology (own project)',
+    status: 'Live'
   }
 ]
 
 export const serviceData = [
-    { icon: assets.web_icon, title: 'Web design', description: 'Web development is the process of building, programming...', link: '' },
-    { icon: assets.mobile_icon, title: 'Mobile app', description: 'Mobile app development involves creating software for mobile devices...', link: '' },
-    { icon: assets.ui_icon, title: 'UI/UX design', description: 'UI/UX design focuses on creating a seamless user experience...', link: '' },
-    { icon: assets.graphics_icon, title: 'Graphics design', description: 'Creative design solutions to enhance visual communication...', link: '' },
+  {
+    icon: 'Cpu',
+    title: 'Mobile apps',
+    description: 'Cross-platform Android and iOS apps with React Native, Expo and TypeScript, including role-based navigation, authentication and API integration.',
+    techStack: ['React Native', 'Expo', 'TypeScript'],
+  },
+  {
+    icon: 'NextJS',
+    title: 'Full-stack web apps',
+    description: 'Web applications built with Next.js, React and Tailwind CSS, backed by Node.js or FastAPI and a Supabase / PostgreSQL database.',
+    techStack: ['Next.js', 'React', 'FastAPI', 'Supabase'],
+  },
+  {
+    icon: 'Code',
+    title: 'API and payment integration',
+    description: 'Connecting apps to REST APIs and third-party services, including Paystack payments.',
+    techStack: ['REST APIs', 'Paystack'],
+  },
+  {
+    icon: 'AIPowered',
+    title: 'AI-assisted features',
+    description: 'Adding LLM-powered features, such as document validation, to products, with careful prompt design.',
+    techStack: ['LLM integration', 'Prompt engineering'],
+  },
 ]
 
 export const infoList = [
-  { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'JavaScript, TypeScript, Python, SQL' },
-  { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'B.Sc Computer Science — University of Calabar (300L)' },
-  { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: '20+ production-grade systems built' }
+  { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'JavaScript, TypeScript, Python' },
+  { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'B.Sc Computer Science, University of Calabar (400 Level)' },
+  { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: '20+ projects built across web and mobile' }
 ]
 
 export const toolsData = [
-    assets.vscode, assets.firebase, assets.mongodb, assets.figma, assets.git
+    assets.vscode, assets.git
 ];

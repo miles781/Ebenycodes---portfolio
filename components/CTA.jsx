@@ -23,7 +23,7 @@ const CTA = () => {
           <blockquote className="text-2xl md:text-3xl font-bold text-white leading-tight mb-4">
             "The goal isn't just to make software smarter. It's to make it <span className="text-primary">useful</span>."
           </blockquote>
-          <p className="text-slate-500 font-mono text-sm">— Ebenezer Igogo, AI Product Engineer</p>
+          <p className="text-slate-500 font-mono text-sm">— Ebenezer Igogo</p>
         </motion.div>
 
         {/* CTA Terminal */}
@@ -47,22 +47,22 @@ const CTA = () => {
                 </div>
 
                 <h2 className="text-3xl md:text-5xl font-bold text-white mb-6 tracking-tight">
-                    Have a product idea or<br/>
-                    <span className="text-primary">a problem to solve?</span>
+                    Hiring, or have<br/>
+                    <span className="text-primary">a project in mind?</span>
                 </h2>
 
                 <p className="text-slate-400 text-lg mb-8 max-w-xl mx-auto leading-relaxed">
-                    I build mobile apps, web systems, and AI-powered tools for <span className="text-white">startups, institutions, and founders</span> — especially across Africa. Let's talk about your project.
+                    I'm open to <span className="text-white">junior full-stack, mobile and AI-application roles</span>, internships and freelance projects. Get in touch and let's talk.
                 </p>
 
                 <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
                     <a href="#contact" className="px-8 py-4 bg-primary text-slate-900 font-bold rounded-lg hover:bg-primaryHover transition-all flex items-center gap-2 group">
                         <Terminal className="w-5 h-5" />
-                        <span>Start a Project</span>
+                        <span>Get in Touch</span>
                         <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
                     </a>
                     
-                    <a href="mailto:ebenezer@aiproductengineer.com" className="px-8 py-4 bg-white/5 text-white font-medium rounded-lg hover:bg-white/10 border border-white/5 transition-all flex items-center gap-2">
+                    <a href="mailto:Sirigogoebenezer@gmail.com" className="px-8 py-4 bg-white/5 text-white font-medium rounded-lg hover:bg-white/10 border border-white/5 transition-all flex items-center gap-2">
                         <Coffee className="w-5 h-5 text-slate-400" />
                         <span>Send a Message</span>
                     </a>
@@ -70,7 +70,7 @@ const CTA = () => {
                 
                 <div className="mt-8 pt-8 border-t border-white/5 flex justify-center gap-6 text-xs font-mono text-slate-500">
                     <span>STATUS: ONLINE</span>
-                    <span>RESPONSE TIME: &lt; 24hrs</span>
+                    <span>BASED IN: CALABAR, NG</span>
                 </div>
             </div>
         </motion.div>

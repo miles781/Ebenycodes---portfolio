@@ -45,22 +45,22 @@ const HeroSection = () => {
               
               <div className="absolute bottom-4 left-4">
                 <h2 className="text-white font-bold text-xl">Ebenezer Igogo</h2>
-                <p className="text-primary text-sm font-mono">AI Product Engineer</p>
+                <p className="text-primary text-sm font-mono">Full-Stack & Mobile Developer</p>
               </div>
             </div>
 
             <div className="grid grid-cols-3 gap-4 border-t border-white/5 pt-4">
               <div className="text-center">
-                <div className="text-white font-bold text-lg">5+</div>
-                <div className="text-slate-500 text-xs uppercase tracking-wider">Years</div>
+                <div className="text-white font-bold text-lg">2020</div>
+                <div className="text-slate-500 text-xs uppercase tracking-wider">Coding since</div>
               </div>
               <div className="text-center border-l border-white/5">
                 <div className="text-white font-bold text-lg">20+</div>
                 <div className="text-slate-500 text-xs uppercase tracking-wider">Projects</div>
               </div>
               <div className="text-center border-l border-white/5">
-                <div className="text-white font-bold text-lg">100%</div>
-                <div className="text-slate-500 text-xs uppercase tracking-wider">Commitment</div>
+                <div className="text-white font-bold text-lg">400L</div>
+                <div className="text-slate-500 text-xs uppercase tracking-wider">CS Student</div>
               </div>
             </div>
 
@@ -91,7 +91,7 @@ const HeroSection = () => {
           </h1>
 
           <p className="text-lg text-slate-400 max-w-lg leading-relaxed">
-            A <strong className="text-white">Full-Stack & AI Product Engineer</strong> from Nigeria. I build production mobile apps, intelligent web systems, and AI-powered tools — for real-world impact.
+            A <strong className="text-white">Full-Stack & Mobile Developer</strong> from Calabar, Nigeria. I build React Native apps and Next.js web applications with real API integrations, and I am open to junior and internship roles.
           </p>
 
           <div className="flex flex-wrap gap-4 pt-4">
