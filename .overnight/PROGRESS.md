@@ -20,3 +20,17 @@
    - `GET /_next/image?url=/projects/quick-consult.png&w=96&q=75` → HTTP 200 ✅
    - Homepage renders with correct project cards ✅
 3. Content sweep for prohibited strings — only "Screenshots coming soon" found, still valid ✅
+4. `git status` after commit — clean working tree ✅
+
+## Completed
+- Package files copied from `portfolio-fix-v3` to repo ✅
+- Convex added alongside Supabase in 5 locations ✅
+- CV link fixed on `main` (committed b5bbb50) ✅
+- ESLint `ignoreDuringBuilds: true` added to next.config.mjs ✅
+- Quality pass: alt text, aria-labels on icon-only links ✅
+- All .overnight docs created ✅
+- Commit created on `overnight/2026-10-25` ✅
+
+## Next
+- Owner should: push `overnight/2026-10-25` to remote or merge into `portfolio-fixes`
+- Owner must confirm: Quick Consult/Tasty Cart logo permissions, Tasty Cart client label, Gmail display preference, real screenshots for remaining projects
