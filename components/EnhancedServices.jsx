@@ -1,6 +1,6 @@
 'use client'
 
-import { serviceData, techIcons } from '@/assets/assets'
+import { serviceData } from '@/assets/assets'
 import { motion, AnimatePresence } from 'framer-motion'
 import { Cpu, Zap, Box, Target, Code, GraduationCap, Mail, User, ArrowUpRight, Terminal } from 'lucide-react'
 
@@ -35,9 +35,11 @@ const ServiceCard = ({ icon, title, description, techStack, link }) => {
             </div>
             
             {/* Link Icon */}
-            <a href={link} className="opacity-0 group-hover:opacity-100 transition-opacity text-primary">
-                <ArrowUpRight className="w-5 h-5" />
-            </a>
+            {link && (
+              <a href={link} className="opacity-0 group-hover:opacity-100 transition-opacity text-primary">
+                  <ArrowUpRight className="w-5 h-5" />
+              </a>
+            )}
         </div>
 
         {/* Title & Desc */}
@@ -104,15 +106,15 @@ const EnhancedServices = () => {
         <div className="text-center mb-16">
           <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-primary/10 border border-primary/20 text-primary text-xs font-mono mb-4">
             <Terminal className="w-3 h-3" />
-            <span>OFFERINGS</span>
+            <span>WHAT I BUILD</span>
           </div>
           
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
-            Technical Services
+            What I Build
           </h2>
           
           <p className="text-slate-400 max-w-2xl mx-auto text-lg">
-            Engineering scalable <span className="text-primary">AI solutions</span> and high-performance web architectures.
+            <span className="text-primary">Mobile apps</span>, full-stack web applications and API integrations.
           </p>
         </div>
 

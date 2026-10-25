@@ -1,7 +1,7 @@
 'use client'
 import React, { useState } from 'react'
 import { motion } from 'framer-motion'
-import { Cpu, Zap, Box, BarChart3, ShoppingBag, PieChart, MessageSquare, ArrowUpRight } from 'lucide-react'
+import { Cpu, Zap, Box, BarChart3, ShoppingBag, PieChart, MessageSquare, ShieldCheck, GraduationCap, ArrowUpRight } from 'lucide-react'
 import Image from 'next/image'
 import { workData } from '@/assets/assets'
 
@@ -12,7 +12,9 @@ const iconMap = {
     BarChart3: BarChart3,
     ShoppingBag: ShoppingBag,
     PieChart: PieChart,
-    MessageSquare: MessageSquare
+    MessageSquare: MessageSquare,
+    ShieldCheck: ShieldCheck,
+    GraduationCap: GraduationCap
 }
 
 const Work = () => {
@@ -30,7 +32,7 @@ const Work = () => {
                 </h2>
                 <div className="w-20 h-1 bg-primary rounded-full mb-6"></div>
                 <p className="text-slate-400 max-w-xl">
-                    A curated selection of <span className="text-white">production systems</span> and <span className="text-white">AI-powered applications</span> built for real clients and organizations.
+                    A selection of <span className="text-white">mobile</span>, <span className="text-white">web</span> and <span className="text-white">AI</span> projects, from university platforms to a fintech analytics tool.
                 </p>
             </div>
             
@@ -42,8 +44,9 @@ const Work = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 auto-rows-[400px]">
             {workData.map((project, index) => {
-                const isWide = index === 0 || index === 3
+                const isWide = index === 0 || index === 5
                 const gridClass = isWide ? 'md:col-span-2' : 'md:col-span-1'
+                const Icon = iconMap[project.icon] || Box
 
                 return (
                     <motion.div
@@ -56,12 +59,30 @@ const Work = () => {
                         onMouseLeave={() => setHoveredIndex(null)}
                     >
                         <div className="absolute inset-0">
-                            <Image 
-                                src={project.bgImage} 
-                                alt={project.title} 
-                                fill 
-                                className="object-cover transition-transform duration-700 group-hover:scale-105 opacity-60 group-hover:opacity-40"
-                            />
+                            {project.image ? (
+                                <Image 
+                                    src={project.image} 
+                                    alt={`${project.title} screenshot`} 
+                                    fill 
+                                    className="object-cover transition-transform duration-700 group-hover:scale-105 opacity-60 group-hover:opacity-40"
+                                />
+                            ) : (
+                                <div className="absolute inset-0 bg-gradient-to-br from-slate-800 via-card to-page flex items-start justify-center pt-14">
+                                    <div className={`w-28 h-28 rounded-2xl flex items-center justify-center shadow-lg ring-1 ring-white/10 transition-transform duration-500 group-hover:scale-105 ${project.logo ? 'bg-white p-3' : 'bg-white/5'}`}>
+                                        {project.logo ? (
+                                            <Image
+                                                src={project.logo}
+                                                alt={`${project.title} logo`}
+                                                width={96}
+                                                height={96}
+                                                className="object-contain w-full h-full"
+                                            />
+                                        ) : (
+                                            <Icon className="w-12 h-12 text-primary" strokeWidth={1.5} />
+                                        )}
+                                    </div>
+                                </div>
+                            )}
                             <div className="absolute inset-0 bg-gradient-to-t from-page via-page/80 to-transparent opacity-90" />
                         </div>
 

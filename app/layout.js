@@ -11,8 +11,8 @@ const ovo  = Ovo({
 
 
 export const metadata = {
-  title: "EbenYcodes - Portfolio ",
-  description: "", 
+  title: "Ebenezer Igogo | Full-Stack & Mobile Developer",
+  description: "Portfolio of Ebenezer Igogo, a self-taught full-stack and mobile developer in Calabar, Nigeria, building with React Native, Next.js, FastAPI, Supabase and Convex.", 
 };
 
 export default function RootLayout({ children }) {

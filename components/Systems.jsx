@@ -34,7 +34,7 @@ const Systems = () => {
               </div>
               <div className="hidden md:flex gap-2 mt-4 md:mt-0">
                     <div className="px-2 py-1 rounded bg-slate-800 border border-white/5 text-xs font-mono text-slate-500">REAL PROJECT</div>
-                    <div className="px-2 py-1 rounded bg-slate-800 border border-white/5 text-xs font-mono text-green-500">DELIVERED</div>
+                    <div className="px-2 py-1 rounded bg-slate-800 border border-white/5 text-xs font-mono text-green-500">MVP</div>
               </div>
           </div>
 

@@ -49,7 +49,7 @@ export default function Home() {
       <Sidebar />
 
       <main className="relative z-10 md:pl-24 transition-all duration-300 ease-in-out">
-        <div className="max-w-[1600px] mx-auto">
+        <div className="max-w-[1600px] mx-auto pb-24 md:pb-0">
           
           <HeroSection id="hero" />
           

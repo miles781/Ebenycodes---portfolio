@@ -1,36 +1,46 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Ebenezer Igogo | Portfolio
 
-## Getting Started
+Personal portfolio of Ebenezer Igogo, a self-taught full-stack and mobile developer based in Calabar, Nigeria.
 
-First, run the development server:
+**Live site:** https://ebenycodes.vercel.app
+
+## About
+
+A single-page portfolio showing selected projects (React Native mobile apps, Next.js web apps, a FastAPI-backed analytics platform), a case study of the SmartClear X university clearance app, and a contact form.
+
+## Built with
+
+- Next.js (App Router) and React
+- Tailwind CSS
+- Framer Motion (animations)
+- Lucide React (icons)
+- Web3Forms (contact form)
+- Deployed on Vercel
+
+## Run it locally
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Then open http://localhost:3000.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Project structure
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```
+app/            Next.js layout and home page
+components/     Page sections (Hero, Services, Work, Systems, About, CTA, Contact), Sidebar, Footer, Command palette (Ctrl/Cmd + K)
+assets/         Icons, images and the data for projects and services (assets/assets.js)
+public/         Static files, including the downloadable CV
+```
 
-## Learn More
+## Editing content
 
-To learn more about Next.js, take a look at the following resources:
+- **Projects and services:** edit `workData` and `serviceData` in `assets/assets.js`.
+- **Project screenshots:** put an image in `public/projects/` and set `image: '/projects/your-image.png'` on the project in `workData`. Projects without an image show a styled placeholder.
+- **CV:** replace `public/Ebenezer-resume.pdf`.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Contact
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+[LinkedIn](https://www.linkedin.com/in/igogo-ebenezer-47a483358/) | [GitHub](https://github.com/miles781)
